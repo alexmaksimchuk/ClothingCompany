@@ -1,0 +1,91 @@
+﻿---
+ID: "74e40ce2-b24f-408f-b97e-6cfc836598e4"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "06eef10f-df02-4daf-b4c2-d17b22f08a40"
+Path: /sitecore/content/Home/Blog Posts
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{E0AEAA7B-5539-4726-AA96-66CD8C1A87C9}"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Blogeinträge
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210611T095325Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ef80a450-a360-4779-9331-ddd856afa6ea"
+      Hint: Banner Image
+      Value: |
+        <image mediaid="{8BB3D3AD-C645-4DE9-871D-5A826773F26A}" />
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Blog Posts
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{95A54BB7-726C-46EB-BF32-75239DA869B9}"
+              p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:ds="{74E40CE2-B24F-408F-B97E-6CFC836598E4}"
+              s:id="{BAA32866-5A80-45DD-8E16-BA9AE26D86CD}"
+              s:par=""
+              s:ph="/main/col-center-{B7A605DF-64D3-4531-B611-744C25CC27E3}-0" />
+            <r
+              uid="{A7065E73-8C0D-430C-888F-9FA748FC8B40}"
+              p:after="r[@uid='{95A54BB7-726C-46EB-BF32-75239DA869B9}']"
+              s:id="{B5828582-CCAC-45FE-B84D-6C1DAC281E55}"
+              s:ph="/main/col-center-{37B04484-D873-4E1F-8EBB-A4A8ED08239B}-0" />
+            <r
+              uid="{AA4E040D-DD33-484C-AC2C-24AD08EDCF03}">
+              <p:d />
+            </r>
+            <r
+              uid="{B7A605DF-64D3-4531-B611-744C25CC27E3}"
+              p:after="*[1=2]"
+              s:id="{72030422-49FE-4AE7-BB77-A2482FFCF36E}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "1a75aedd-241d-41aa-a8ee-46b362449be5"
+      Hint: Page Title
+      Value: Blog Posts
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200326T201135Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "df7eba2b-fa3f-4012-a470-9307bc927cc0"
+      Hint: Subtitle
+      Value: Subtitle.
+    - ID: "ef80a450-a360-4779-9331-ddd856afa6ea"
+      Hint: Banner Image
+      Value: |
+        <image mediaid="{5EA851E4-8ACF-493E-B2FC-651E450BC7FA}" />

@@ -1,0 +1,29 @@
+﻿---
+ID: "d8a0bb90-d5c6-43e0-8e3a-498ad70691af"
+Parent: "ec6b4b2d-69c0-416e-850b-ec7ab79e7fdb"
+Template: "3e07989f-4ca0-4074-849b-6d0042ad2d33"
+Path: /sitecore/content/Home/Capsule Wardrobes/Fall/2019 Fall Capsule Wardrobe
+DB: master
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210611T095326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200415T220345Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

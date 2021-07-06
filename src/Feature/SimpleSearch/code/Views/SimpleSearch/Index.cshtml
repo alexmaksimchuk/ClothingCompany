@@ -1,0 +1,15 @@
+﻿@using Sitecore.Mvc
+@model ClothingCompany.Feature.SimpleSearch.Models.SimpleSearch
+
+<div>
+    <h1 class="title">@Html.Sitecore().Field("__Display Name", Model.ParentItem)</h1>
+    @foreach (var wardrobe in Model.CapsuleWardrobeItems)
+    {
+        <div>
+            <a href="@wardrobe.Url">@Html.Sitecore().Field("Page Title", wardrobe.Item)</a>
+            <figure class="image">
+                @Html.Sitecore().Field("Primary Image", wardrobe.Item, new { DisableWebEdit = true, mh = "150" })
+            </figure>
+        </div>
+    }
+</div>

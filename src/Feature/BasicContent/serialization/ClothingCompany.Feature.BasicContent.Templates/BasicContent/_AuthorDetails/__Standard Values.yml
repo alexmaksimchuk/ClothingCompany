@@ -1,0 +1,29 @@
+﻿---
+ID: "319f2401-847e-4d4d-8cf0-54be36b40ee3"
+Parent: "628740ef-0566-4177-b15e-779ba6090bd4"
+Template: "628740ef-0566-4177-b15e-779ba6090bd4"
+Path: /sitecore/templates/Feature/BasicContent/_AuthorDetails/__Standard Values
+DB: master
+SharedFields:
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200304T141214Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8838a38a-c19f-4ad2-9fb9-1abfa182e9d0"
+      Hint: Author Bio
+      Value: Write a few sentences about yourself.&nbsp;
+    - ID: "eb087ec1-d100-40e7-957a-2cac1cdafbe7"
+      Hint: Author Name
+      Value: $name

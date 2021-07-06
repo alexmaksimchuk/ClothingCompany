@@ -1,0 +1,14 @@
+﻿---
+ID: "74093b0d-56f1-49cd-a284-225cdf67c2b9"
+Parent: "d3a38a48-ab2a-4cb5-b0f7-5c1bf88d0640"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/BasicContent/_CapsuleWardrobePage/Product Reviews
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200415T220257Z

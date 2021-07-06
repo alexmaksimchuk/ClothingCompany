@@ -1,0 +1,19 @@
+﻿---
+ID: "78820eba-a06a-4b54-a3c2-b2f46c4482c5"
+Parent: "b72bb7ac-1667-4b23-9fa4-d4d2378e7e39"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Home/Metadata/BasicContent/Authors
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{DCAB1D53-E94B-45E1-BDCF-650581C1C5BC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200326T184932Z

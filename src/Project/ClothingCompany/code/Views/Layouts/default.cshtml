@@ -1,0 +1,14 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    Layout = "outer.cshtml";
+}
+<div>
+    @Html.Sitecore().ControllerRendering("Navigation", "Header")
+</div>
+<div>
+    @Html.Sitecore().Placeholder("main")
+</div>
+<div>
+    @Html.Sitecore().ControllerRendering("Navigation", "Footer")
+</div>

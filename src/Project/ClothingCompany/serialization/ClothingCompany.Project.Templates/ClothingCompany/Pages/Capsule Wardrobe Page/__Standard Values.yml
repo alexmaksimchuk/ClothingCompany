@@ -1,0 +1,37 @@
+﻿---
+ID: "6db26f68-274b-4b26-ad3a-99e8489aa270"
+Parent: "3e07989f-4ca0-4074-849b-6d0042ad2d33"
+Template: "3e07989f-4ca0-4074-849b-6d0042ad2d33"
+Path: /sitecore/templates/Project/ClothingCompany/Pages/Capsule Wardrobe Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{1FE4AA46-481F-4BA0-BC58-E705B4E12629}">
+        <p
+          uid="{39B89E7D-D92E-46D7-8A50-65553167A82B}"
+          key="main"
+          md="{34CA132A-2A07-4B59-880A-E1F9150372A8}" />
+        <r
+          id="{72030422-49FE-4AE7-BB77-A2482FFCF36E}"
+          ph="main"
+          uid="{167F06DE-B9DF-48D8-B442-78D351986F4A}" />
+        <r
+          id="{5311DF9C-6BE6-4026-8B7C-9C187E50EC5A}"
+          ph="main"
+          uid="{61C4407B-2ACF-4F6C-8AD8-F44BFFF9F227}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200304T141338Z

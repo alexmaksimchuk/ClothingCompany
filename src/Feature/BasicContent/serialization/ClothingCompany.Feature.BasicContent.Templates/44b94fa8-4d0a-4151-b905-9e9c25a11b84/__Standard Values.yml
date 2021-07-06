@@ -1,0 +1,14 @@
+﻿---
+ID: "7415b247-894a-4495-a715-a4a613bb14e9"
+Parent: "44b94fa8-4d0a-4151-b905-9e9c25a11b84"
+Template: "44b94fa8-4d0a-4151-b905-9e9c25a11b84"
+Path: /sitecore/templates/Feature/BasicContent/Rendering Parameters Templates/ParametersTemplate_Banner/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210420T103446Z

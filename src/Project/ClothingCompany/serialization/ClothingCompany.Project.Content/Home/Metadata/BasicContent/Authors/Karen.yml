@@ -1,0 +1,49 @@
+﻿---
+ID: "77d3015b-6ce6-45c4-8cf5-b495b196c136"
+Parent: "78820eba-a06a-4b54-a3c2-b2f46c4482c5"
+Template: "dcab1d53-e94b-45e1-bdcf-650581c1c5bc"
+Path: /sitecore/content/Home/Metadata/BasicContent/Authors/Karen
+DB: master
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210611T095535Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "770fb83e-8f1f-4072-be3a-8c73a94eef68"
+      Hint: Author Photo
+      Value: |
+        <image mediaid="{F67910AA-AE68-4726-B920-B2A601FCEC4D}" />
+    - ID: "8838a38a-c19f-4ad2-9fb9-1abfa182e9d0"
+      Hint: Author Bio
+      Value: Schreiben Sie ein paar S&auml;tze &uuml;ber sich.
+    - ID: "eb087ec1-d100-40e7-957a-2cac1cdafbe7"
+      Hint: Author Name
+      Value: $name
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200330T114006Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "770fb83e-8f1f-4072-be3a-8c73a94eef68"
+      Hint: Author Photo
+      Value: |
+        <image mediaid="{3876E34A-232E-4870-ACF5-A32CCF75A6F5}" />
+    - ID: "8838a38a-c19f-4ad2-9fb9-1abfa182e9d0"
+      Hint: Author Bio
+      Value: Karen is an enthusiastic mother of two who lives in the bay area of California. She knows what it's like to shop on a budget and always wants to get the most out of the clothes she already owns.&nbsp;&nbsp;
+    - ID: "eb087ec1-d100-40e7-957a-2cac1cdafbe7"
+      Hint: Author Name
+      Value: Karen

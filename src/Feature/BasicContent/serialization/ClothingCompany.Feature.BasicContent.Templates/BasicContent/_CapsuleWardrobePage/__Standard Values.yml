@@ -1,0 +1,29 @@
+﻿---
+ID: "d000073d-359a-4bfe-9767-b1e8180e5b3b"
+Parent: "d3a38a48-ab2a-4cb5-b0f7-5c1bf88d0640"
+Template: "d3a38a48-ab2a-4cb5-b0f7-5c1bf88d0640"
+Path: /sitecore/templates/Feature/BasicContent/_CapsuleWardrobePage/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{1FE4AA46-481F-4BA0-BC58-E705B4E12629}">
+        <p
+          uid="{39B89E7D-D92E-46D7-8A50-65553167A82B}"
+          key="main"
+          md="{34CA132A-2A07-4B59-880A-E1F9150372A8}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200304T141338Z

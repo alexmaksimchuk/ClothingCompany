@@ -1,0 +1,109 @@
+﻿---
+ID: "0dc59edc-7816-41c1-9b70-6865fc87976e"
+Parent: "b354c2de-d018-4ec6-9bec-61cd7597484f"
+Template: "06eef10f-df02-4daf-b4c2-d17b22f08a40"
+Path: /sitecore/content/Home/Resources/Contact Us
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/16x16/form_red.png
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{EB64DDA0-7C37-463A-BCB7-2C67D19D47E1}"
+              p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:id="{B5828582-CCAC-45FE-B84D-6C1DAC281E55}"
+              s:ph="/main/col-center-{37B04484-D873-4E1F-8EBB-A4A8ED08239B}-0" />
+            <r
+              uid="{BAD52554-4C34-46A2-9963-4FB4F3BDA4E5}"
+              p:after="r[@uid='{EB64DDA0-7C37-463A-BCB7-2C67D19D47E1}']"
+              s:id="{7B46C9B7-2420-42A2-B7AD-66BCBEF34CC3}"
+              s:ph="/main/col-left-{A989AE23-BD05-43AC-8F2D-8D96249A819F}-0" />
+            <r
+              uid="{258C010A-C7BA-4ABF-81F0-5326E205D292}"
+              p:after="r[@uid='{BAD52554-4C34-46A2-9963-4FB4F3BDA4E5}']"
+              s:ds="{90726283-1A80-49DF-B0DF-A00290F71652}"
+              s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+              s:ph="/main/col-right-{A989AE23-BD05-43AC-8F2D-8D96249A819F}-0" />
+            <r
+              uid="{514A19F3-9ECB-4D9D-87E4-6BABB4DE27F7}">
+              <p:d />
+            </r>
+            <r
+              uid="{A989AE23-BD05-43AC-8F2D-8D96249A819F}"
+              p:after="*[1=2]"
+              s:id="{5311DF9C-6BE6-4026-8B7C-9C187E50EC5A}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210611T095326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ef80a450-a360-4779-9331-ddd856afa6ea"
+      Hint: Banner Image
+      Value: |
+        <image mediaid="{B506CFA9-6FFC-4DA1-AB3C-80BAA85D1972}" ></image>
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Contact Us
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{BAD52554-4C34-46A2-9963-4FB4F3BDA4E5}"
+              p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:id="{7B46C9B7-2420-42A2-B7AD-66BCBEF34CC3}"
+              s:ph="/main/col-left-{A989AE23-BD05-43AC-8F2D-8D96249A819F}-0" />
+            <r
+              uid="{258C010A-C7BA-4ABF-81F0-5326E205D292}"
+              p:after="r[@uid='{BAD52554-4C34-46A2-9963-4FB4F3BDA4E5}']"
+              s:ds="{90726283-1A80-49DF-B0DF-A00290F71652}"
+              s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+              s:ph="/main/col-right-{A989AE23-BD05-43AC-8F2D-8D96249A819F}-0" />
+            <r
+              uid="{A989AE23-BD05-43AC-8F2D-8D96249A819F}"
+              p:after="*[1=2]"
+              s:id="{5311DF9C-6BE6-4026-8B7C-9C187E50EC5A}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "1a75aedd-241d-41aa-a8ee-46b362449be5"
+      Hint: Page Title
+      Value: Contact Us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210416T091839Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ef80a450-a360-4779-9331-ddd856afa6ea"
+      Hint: Banner Image
+      Value: |
+        <image mediaid="{B506CFA9-6FFC-4DA1-AB3C-80BAA85D1972}" />

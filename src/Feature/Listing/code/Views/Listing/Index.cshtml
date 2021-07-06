@@ -1,0 +1,29 @@
+﻿@using Sitecore.Mvc
+@model ClothingCompany.Feature.Listing.Models.Listing
+
+<div>
+    <h1 class="subtitle">@Html.Sitecore().Field("__Display Name", Model.ParentItem)</h1>
+    <div class="tile is-ancestor">
+        <div class="tile is-vertical is-parent">
+            @foreach (var post in Model.Posts)
+            {
+                <div class="tile is-child box">
+                    <a href="@post.Url">
+                        <div class="columns is-bordered">
+                            <div class="column media center">
+                                <figure class="image">
+                                    @Html.Sitecore().Field("Primary Image", post.Item, new { DisabelWebEdit = true, mh = 150 })
+                                </figure>
+                            </div>
+                            <div class="column is-three-quarters media-content">
+                                <p class="is-4">
+                                    @Html.Sitecore().Field("Page Title", post.Item, new { DisableWebEdit = true })
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
