@@ -1,0 +1,14 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+}
+<section class="hero" style="background-color: @RenderingContext.Current.Rendering.Parameters["Bg-Color"]">
+    <div class="banner">
+        <div class="banner-image">@Html.Sitecore().Field("Banner Image", new { mh = 300 })</div>
+        <div class="banner-text">
+            <h1 class="title">@Html.Sitecore().Field("Page Title")</h1>
+            <h2 class="subtitle">@Html.Sitecore().Field("Subtitle")</h2>
+        </div>
+    </div>
+</section>

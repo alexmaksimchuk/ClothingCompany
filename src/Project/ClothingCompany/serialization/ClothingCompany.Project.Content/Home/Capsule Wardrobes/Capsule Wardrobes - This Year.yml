@@ -1,0 +1,73 @@
+﻿---
+ID: "cc553c54-dbb5-47aa-b147-5bed3ce4f577"
+Parent: "4bc53ab7-0613-420f-bcb5-294799b59d04"
+Template: "06eef10f-df02-4daf-b4c2-d17b22f08a40"
+Path: "/sitecore/content/Home/Capsule Wardrobes/Capsule Wardrobes - This Year"
+DB: master
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A8861A0D-E42C-419B-803D-F7AA8D3A17FC}"
+              p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:ds="{4BC53AB7-0613-420F-BCB5-294799B59D04}"
+              s:id="{767F8BF9-F567-4B21-884A-E7A7508F07F7}"
+              s:par=""
+              s:ph="/main/col-center-{DEED65E4-B5F1-4139-8BB9-B6CCC7D12525}-0" />
+            <r
+              uid="{AA52903C-17E0-40B1-895B-F9A62EF2B897}"
+              p:after="r[@uid='{A8861A0D-E42C-419B-803D-F7AA8D3A17FC}']"
+              s:ds="{4BC53AB7-0613-420F-BCB5-294799B59D04}"
+              s:id="{459EE53D-0A4F-4D31-9E50-4B1D7AB1A947}"
+              s:par=""
+              s:ph="/main/col-center-{1954675D-4848-419E-B308-A6F0E57650AC}-0" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210611T095326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A8861A0D-E42C-419B-803D-F7AA8D3A17FC}"
+              p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:ds="{4BC53AB7-0613-420F-BCB5-294799B59D04}"
+              s:id="{767F8BF9-F567-4B21-884A-E7A7508F07F7}"
+              s:par=""
+              s:ph="/main/col-center-{DEED65E4-B5F1-4139-8BB9-B6CCC7D12525}-0" />
+            <r
+              uid="{AA52903C-17E0-40B1-895B-F9A62EF2B897}"
+              p:after="r[@uid='{A8861A0D-E42C-419B-803D-F7AA8D3A17FC}']"
+              s:ds="{4BC53AB7-0613-420F-BCB5-294799B59D04}"
+              s:id="{459EE53D-0A4F-4D31-9E50-4B1D7AB1A947}"
+              s:par=""
+              s:ph="/main/col-center-{1954675D-4848-419E-B308-A6F0E57650AC}-0" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200515T182127Z

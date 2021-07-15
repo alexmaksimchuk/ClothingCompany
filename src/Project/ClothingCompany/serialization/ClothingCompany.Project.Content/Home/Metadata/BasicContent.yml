@@ -1,0 +1,14 @@
+﻿---
+ID: "b72bb7ac-1667-4b23-9fa4-d4d2378e7e39"
+Parent: "f4620e18-a2ab-4026-8b4e-fd55cab99bcc"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Home/Metadata/BasicContent
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210706T193740Z

@@ -1,0 +1,30 @@
+﻿---
+ID: "2480476e-fbe3-4ef0-a946-43319d1f6bc5"
+Parent: "93595d41-3f6a-4ec1-b28f-758d4ffcdab1"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Project/ClothingCompany/Right Column
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "col-right"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {C132635F-6A70-4252-8C11-884B3F7CB46C}
+    {B5828582-CCAC-45FE-B84D-6C1DAC281E55}
+    {BAA32866-5A80-45DD-8E16-BA9AE26D86CD}
+    {6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}
+    {767F8BF9-F567-4B21-884A-E7A7508F07F7}
+    {CEBE45CC-F178-440C-9E02-1DACD85701FF}
+    {F288C1D3-C640-4B6B-8A91-1AC001BF789A}
+    {7B46C9B7-2420-42A2-B7AD-66BCBEF34CC3}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210419T112640Z

@@ -1,0 +1,37 @@
+﻿---
+ID: "9506def1-bebd-4d4e-8464-9b6658a32997"
+Parent: "41c3c0b0-4b24-4879-82d4-23ef100b23e2"
+Template: "06eef10f-df02-4daf-b4c2-d17b22f08a40"
+Path: /sitecore/content/Home/Fashion Reviews/Womens
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{E0AEAA7B-5539-4726-AA96-66CD8C1A87C9}"
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210611T095326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a75aedd-241d-41aa-a8ee-46b362449be5"
+      Hint: Page Title
+      Value: Womens
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200326T201354Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

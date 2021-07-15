@@ -1,0 +1,37 @@
+﻿---
+ID: "f8a45f2d-e53c-453a-94f0-25d8b2dadae7"
+Parent: "f1108e0f-36ae-44f1-947f-580d0af02f21"
+Template: "f1108e0f-36ae-44f1-947f-580d0af02f21"
+Path: /sitecore/templates/Feature/BasicContent/_ReviewBlogPage/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{1FE4AA46-481F-4BA0-BC58-E705B4E12629}">
+        <p
+          uid="{39B89E7D-D92E-46D7-8A50-65553167A82B}"
+          key="main"
+          md="{34CA132A-2A07-4B59-880A-E1F9150372A8}" />
+        <r
+          id="{F288C1D3-C640-4B6B-8A91-1AC001BF789A}"
+          ph="/main/col-right-{7DFEAFB8-E3A5-4A6B-8D41-2EB15CD5FA35}-0"
+          uid="{FFA5E706-42D0-4F28-BBAD-D4477954E6B3}" />
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200304T140947Z

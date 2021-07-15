@@ -1,0 +1,32 @@
+﻿---
+ID: "e0aeaa7b-5539-4726-aa96-66cd8c1a87c9"
+Parent: "3029e162-5d79-40f9-ad87-796c790a05d5"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/templates/Project/ClothingCompany/Pages/Review-Blog Page"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/edit.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {F1108E0F-36AE-44F1-947F-580D0AF02F21}
+    {DF85E3D3-05F5-4BFA-B64A-F48F0C55BA52}
+    {1B8BD424-C611-4D77-A8E4-3BD357925759}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{959C5EA9-6955-4155-A10C-1E4F6E83B594}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200304T140939Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

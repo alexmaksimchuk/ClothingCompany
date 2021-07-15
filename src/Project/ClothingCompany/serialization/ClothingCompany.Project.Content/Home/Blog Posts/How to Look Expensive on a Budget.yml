@@ -1,0 +1,105 @@
+﻿---
+ID: "d57cf235-d268-4f46-b85e-53c519bb9c7f"
+Parent: "74e40ce2-b24f-408f-b97e-6cfc836598e4"
+Template: "e0aeaa7b-5539-4726-aa96-66cd8c1a87c9"
+Path: /sitecore/content/Home/Blog Posts/How to Look Expensive on a Budget
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{CE265F50-F46B-4554-A618-9484B509A67D}">
+          <p:d />
+        </r>
+        <r
+          uid="{DEED65E4-B5F1-4139-8BB9-B6CCC7D12525}">
+          <p:d />
+        </r>
+      </d>
+    </r>
+Languages:
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wie man mit kleinem Budget teuer aussieht
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210611T095325Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ef80a450-a360-4779-9331-ddd856afa6ea"
+      Hint: Banner Image
+      Value: |
+        <image mediaid="{778C9DA2-B7E6-433A-B5C7-91B93F920285}" />
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: How to Look Expensive on a Budget
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{952997F7-0367-4AFC-AEBF-9415E8AA4022}"
+              p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:id="{F288C1D3-C640-4B6B-8A91-1AC001BF789A}"
+              s:ph="/main/col-right-{D6435091-27E5-4CF1-893B-237CE76316B2}-0" />
+            <r
+              uid="{214CC5D4-E5BD-41E9-9AF9-4FB9EEE23735}"
+              p:after="r[@uid='{952997F7-0367-4AFC-AEBF-9415E8AA4022}']"
+              s:id="{C132635F-6A70-4252-8C11-884B3F7CB46C}"
+              s:ph="/main/col-left-{D6435091-27E5-4CF1-893B-237CE76316B2}-0" />
+            <r
+              uid="{60948CB9-FADD-4360-9B73-E1B68498B06E}"
+              p:after="r[@uid='{214CC5D4-E5BD-41E9-9AF9-4FB9EEE23735}']"
+              s:id="{B5828582-CCAC-45FE-B84D-6C1DAC281E55}"
+              s:ph="/main/col-center-{3A423352-87A8-4FCE-B106-1F982CF954DC}-0" />
+          </d>
+        </r>
+    - ID: "16b5ca41-afcd-4a61-9d17-dfccc24a335e"
+      Hint: Primary Image
+      Value: |
+        <image mediaid="{713DAF06-BAAD-4415-8BAB-02776C7F5BFB}" ></image>
+    - ID: "1a75aedd-241d-41aa-a8ee-46b362449be5"
+      Hint: Page Title
+      Value: How to Look Expensive on a Budget
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200330T113836Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5f54387d-0781-4ba5-8e8d-e42c33860069"
+      Hint: Date Time
+      Value: 20210706T201500Z
+    - ID: "aae16c06-b25f-4fc9-96b4-e859261c4efb"
+      Hint: Author
+      Value: "{77D3015B-6CE6-45C4-8CF5-B495B196C136}"
+    - ID: "df7eba2b-fa3f-4012-a470-9307bc927cc0"
+      Hint: Subtitle
+      Value: Budget shopping for a top notch look.
+    - ID: "ef80a450-a360-4779-9331-ddd856afa6ea"
+      Hint: Banner Image
+      Value: |
+        <image mediaid="{D0D0A22D-800B-4EF9-B877-3D34E291EB78}" ></image>

@@ -1,0 +1,14 @@
+﻿---
+ID: "7cbb14f6-bb73-4dbe-934f-b92aee0316a5"
+Parent: "455464bb-1b58-4248-8652-a944039fa805"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Project/ClothingCompany/Structure
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210706T194057Z

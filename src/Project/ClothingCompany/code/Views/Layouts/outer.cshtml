@@ -1,0 +1,20 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Montserrat" rel="stylesheet">
+    <title>@Html.Sitecore().Field("Page Title", new { DisableWebEdit = true })</title>
+    <link href="~/css/clothingco-styles.css" rel="stylesheet" />
+    <link href="~/css/custom.css" rel="stylesheet" />
+</head>
+<body>
+    @RenderBody()
+
+    <script src="~/js/clothingco-script.js"></script>
+</body>
+</html>

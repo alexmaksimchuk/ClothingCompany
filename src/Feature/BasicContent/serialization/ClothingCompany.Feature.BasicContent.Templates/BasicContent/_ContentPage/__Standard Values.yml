@@ -1,0 +1,86 @@
+﻿---
+ID: "9f42e32b-6adb-475e-aa41-48d000ec9e12"
+Parent: "1b8bd424-c611-4d77-a8e4-3bd357925759"
+Template: "1b8bd424-c611-4d77-a8e4-3bd357925759"
+Path: /sitecore/templates/Feature/BasicContent/_ContentPage/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{1FE4AA46-481F-4BA0-BC58-E705B4E12629}">
+        <p
+          uid="{39B89E7D-D92E-46D7-8A50-65553167A82B}"
+          key="main"
+          md="{34CA132A-2A07-4B59-880A-E1F9150372A8}" />
+        <r
+          id="{72030422-49FE-4AE7-BB77-A2482FFCF36E}"
+          ph="main"
+          uid="{37B04484-D873-4E1F-8EBB-A4A8ED08239B}" />
+        <r
+          id="{5311DF9C-6BE6-4026-8B7C-9C187E50EC5A}"
+          ph="main"
+          uid="{514A19F3-9ECB-4D9D-87E4-6BABB4DE27F7}" />
+        <r
+          id="{BAA32866-5A80-45DD-8E16-BA9AE26D86CD}"
+          ph="main"
+          uid="{9B8E5604-926B-40BD-AB14-50DA4922642A}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CE265F50-F46B-4554-A618-9484B509A67D}"
+              p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:id="{B5828582-CCAC-45FE-B84D-6C1DAC281E55}"
+              s:ph="/main/col-center-{37B04484-D873-4E1F-8EBB-A4A8ED08239B}-0" />
+            <r
+              uid="{514A19F3-9ECB-4D9D-87E4-6BABB4DE27F7}">
+              <p:d />
+            </r>
+            <r
+              uid="{DEED65E4-B5F1-4139-8BB9-B6CCC7D12525}"
+              p:after="*[1=2]"
+              s:id="{72030422-49FE-4AE7-BB77-A2482FFCF36E}"
+              s:ph="main" />
+            <r
+              uid="{9B8E5604-926B-40BD-AB14-50DA4922642A}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "1a75aedd-241d-41aa-a8ee-46b362449be5"
+      Hint: Page Title
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200304T141121Z
+    - ID: "56d0aef3-6fb8-4dac-bb45-0902b158e344"
+      Hint: Primary Content Text
+      Value: Welcome to the Clothing Company. Take a look around. Check out our Blogs, Reviews, and Capsule Wardrobe offerings.
+    - ID: "72ce295b-e7ee-4a00-8fed-2e54838931f3"
+      Hint: Logo
+      Value: |
+        <image mediaid="{043F330E-6A1E-46F2-9F84-2DAA3D899C39}" />
+    - ID: "df7eba2b-fa3f-4012-a470-9307bc927cc0"
+      Hint: Subtitle
+      Value: Subtitle.

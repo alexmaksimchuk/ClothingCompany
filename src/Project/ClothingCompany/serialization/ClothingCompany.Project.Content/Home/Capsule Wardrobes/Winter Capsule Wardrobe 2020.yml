@@ -1,0 +1,28 @@
+﻿---
+ID: "a9281b8e-6eb5-4cf7-8daf-8c418f7ddefd"
+Parent: "4bc53ab7-0613-420f-bcb5-294799b59d04"
+Template: "06eef10f-df02-4daf-b4c2-d17b22f08a40"
+Path: /sitecore/content/Home/Capsule Wardrobes/Winter Capsule Wardrobe 2020
+DB: master
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210611T095326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a75aedd-241d-41aa-a8ee-46b362449be5"
+      Hint: Page Title
+      Value: Winter Capsule Wardrobe 2020
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200511T225752Z

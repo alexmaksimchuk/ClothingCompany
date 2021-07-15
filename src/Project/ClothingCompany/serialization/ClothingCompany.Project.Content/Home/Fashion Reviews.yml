@@ -1,0 +1,112 @@
+﻿---
+ID: "41c3c0b0-4b24-4879-82d4-23ef100b23e2"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "06eef10f-df02-4daf-b4c2-d17b22f08a40"
+Path: /sitecore/content/Home/Fashion Reviews
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{06EEF10F-DF02-4DAF-B4C2-D17B22F08A40}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{BC07C2AF-2C3A-4CFC-84C2-C0F1ACF50717}"
+          p:after="*[1=2]"
+          s:ds="{41C3C0B0-4B24-4879-82D4-23EF100B23E2}"
+          s:id="{BAA32866-5A80-45DD-8E16-BA9AE26D86CD}" />
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Fashion Reviews
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210611T095326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Fashion Reviews
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D7549B7B-8F85-454E-A066-0F68412E7D93}"
+              p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:ds="{41C3C0B0-4B24-4879-82D4-23EF100B23E2}"
+              s:id="{BAA32866-5A80-45DD-8E16-BA9AE26D86CD}"
+              s:par=""
+              s:ph="/main/col-center-{3F5C175C-7248-4490-9D90-09A8BF94F5B7}-0" />
+            <r
+              uid="{BB28AF70-4D8B-4CF6-BA88-B5C2FE4C0F42}"
+              p:after="r[@uid='{D7549B7B-8F85-454E-A066-0F68412E7D93}']"
+              s:id="{7B46C9B7-2420-42A2-B7AD-66BCBEF34CC3}"
+              s:ph="/main/col-right-{AA4E040D-DD33-484C-AC2C-24AD08EDCF03}-0" />
+            <r
+              uid="{3D33B5E6-B480-4DDE-AD35-2E00148FCB32}"
+              p:after="r[@uid='{BB28AF70-4D8B-4CF6-BA88-B5C2FE4C0F42}']"
+              s:id="{F288C1D3-C640-4B6B-8A91-1AC001BF789A}"
+              s:ph="/main/col-left-{AA4E040D-DD33-484C-AC2C-24AD08EDCF03}-0" />
+            <r
+              uid="{B29D547B-0FAA-4BA9-A712-EC4F4128284C}"
+              p:after="r[@uid='{3D33B5E6-B480-4DDE-AD35-2E00148FCB32}']"
+              s:id="{B5828582-CCAC-45FE-B84D-6C1DAC281E55}"
+              s:ph="/main/col-center-{37B04484-D873-4E1F-8EBB-A4A8ED08239B}-0" />
+            <r
+              uid="{3F5C175C-7248-4490-9D90-09A8BF94F5B7}"
+              p:after="r[@uid='{AA4E040D-DD33-484C-AC2C-24AD08EDCF03}']"
+              s:id="{72030422-49FE-4AE7-BB77-A2482FFCF36E}"
+              s:ph="main" />
+            <r
+              uid="{BC07C2AF-2C3A-4CFC-84C2-C0F1ACF50717}"
+              p:after="*[1=2]" />
+          </d>
+        </r>
+    - ID: "16b5ca41-afcd-4a61-9d17-dfccc24a335e"
+      Hint: Primary Image
+      Value: |
+        <image mediaid="{EAEF1FC0-B46D-4194-A2F7-3C6A55FF16A5}" ></image>
+    - ID: "1a75aedd-241d-41aa-a8ee-46b362449be5"
+      Hint: Page Title
+      Value: Fashion Reviews
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200326T201230Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ef80a450-a360-4779-9331-ddd856afa6ea"
+      Hint: Banner Image
+      Value: |
+        <image mediaid="{B6242124-1E44-47B1-BABB-8228C33F5FEA}" ></image>

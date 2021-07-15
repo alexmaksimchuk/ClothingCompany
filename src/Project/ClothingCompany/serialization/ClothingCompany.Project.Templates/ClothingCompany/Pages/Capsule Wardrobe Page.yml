@@ -1,0 +1,32 @@
+﻿---
+ID: "3e07989f-4ca0-4074-849b-6d0042ad2d33"
+Parent: "3029e162-5d79-40f9-ad87-796c790a05d5"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/ClothingCompany/Pages/Capsule Wardrobe Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/16x16/shoppingbasket.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {D3A38A48-AB2A-4CB5-B0F7-5C1BF88D0640}
+    {DF85E3D3-05F5-4BFA-B64A-F48F0C55BA52}
+    {1B8BD424-C611-4D77-A8E4-3BD357925759}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{6DB26F68-274B-4B26-AD3A-99E8489AA270}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200304T141338Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

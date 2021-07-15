@@ -1,0 +1,73 @@
+﻿---
+ID: "b4087f4c-dc94-4985-825d-d31093e13caa"
+Parent: "b354c2de-d018-4ec6-9bec-61cd7597484f"
+Template: "06eef10f-df02-4daf-b4c2-d17b22f08a40"
+Path: /sitecore/content/Home/Resources/About Us
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/form_red.png
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9A9B30A8-883E-4882-A363-F5B9EEFD579E}"
+              p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:id="{7B46C9B7-2420-42A2-B7AD-66BCBEF34CC3}"
+              s:ph="/main/col-right-{514A19F3-9ECB-4D9D-87E4-6BABB4DE27F7}-0" />
+            <r
+              uid="{0D733E08-122A-429F-94CA-C1FFD47018A8}"
+              p:after="r[@uid='{9A9B30A8-883E-4882-A363-F5B9EEFD579E}']"
+              s:id="{F288C1D3-C640-4B6B-8A91-1AC001BF789A}"
+              s:ph="/main/col-left-{514A19F3-9ECB-4D9D-87E4-6BABB4DE27F7}-0" />
+            <r
+              uid="{D55FCF15-A310-4F02-8783-E4D4FE21FE5E}"
+              p:after="r[@uid='{0D733E08-122A-429F-94CA-C1FFD47018A8}']"
+              s:id="{B5828582-CCAC-45FE-B84D-6C1DAC281E55}"
+              s:ph="/main/col-center-{37B04484-D873-4E1F-8EBB-A4A8ED08239B}-0" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210611T095326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ef80a450-a360-4779-9331-ddd856afa6ea"
+      Hint: Banner Image
+      Value: |
+        <image mediaid="{47FDC419-AEF6-4A86-80B1-C09A00FC91B1}" ></image>
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: About Us
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a75aedd-241d-41aa-a8ee-46b362449be5"
+      Hint: Page Title
+      Value: About Us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210416T083934Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ef80a450-a360-4779-9331-ddd856afa6ea"
+      Hint: Banner Image
+      Value: |
+        <image mediaid="{47FDC419-AEF6-4A86-80B1-C09A00FC91B1}" ></image>

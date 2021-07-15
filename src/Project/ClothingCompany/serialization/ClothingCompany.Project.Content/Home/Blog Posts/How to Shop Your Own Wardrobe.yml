@@ -1,0 +1,102 @@
+﻿---
+ID: "9ed83f58-f465-4ed6-9180-a79fe28ab17d"
+Parent: "74e40ce2-b24f-408f-b97e-6cfc836598e4"
+Template: "e0aeaa7b-5539-4726-aa96-66cd8c1a87c9"
+Path: /sitecore/content/Home/Blog Posts/How to Shop Your Own Wardrobe
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{CE265F50-F46B-4554-A618-9484B509A67D}">
+          <p:d />
+        </r>
+        <r
+          uid="{DEED65E4-B5F1-4139-8BB9-B6CCC7D12525}">
+          <p:d />
+        </r>
+      </d>
+    </r>
+Languages:
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: So kaufen Sie Ihre eigene Garderobe
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210611T095325Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ef80a450-a360-4779-9331-ddd856afa6ea"
+      Hint: Banner Image
+      Value: |
+        <image mediaid="{D42CAF2A-C05C-47E7-ACA1-E273E51BEB00}" alt="" height="" width="" hspace="" vspace="" />
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: How to Shop Your Own Wardrobe
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{2958617D-0BDF-4CBB-8C34-738F95983BFC}"
+              p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:id="{F288C1D3-C640-4B6B-8A91-1AC001BF789A}"
+              s:ph="/main/col-right-{D6435091-27E5-4CF1-893B-237CE76316B2}-0" />
+            <r
+              uid="{6BBAF57D-3082-4548-84FA-58173BA03EB7}"
+              p:after="r[@uid='{2958617D-0BDF-4CBB-8C34-738F95983BFC}']"
+              s:id="{C132635F-6A70-4252-8C11-884B3F7CB46C}"
+              s:ph="/main/col-left-{D6435091-27E5-4CF1-893B-237CE76316B2}-0" />
+            <r
+              uid="{C32ACA8E-3CED-4CB7-A079-B39F035DCCAD}"
+              p:after="r[@uid='{6BBAF57D-3082-4548-84FA-58173BA03EB7}']"
+              s:id="{B5828582-CCAC-45FE-B84D-6C1DAC281E55}"
+              s:ph="/main/col-center-{3A423352-87A8-4FCE-B106-1F982CF954DC}-0" />
+          </d>
+        </r>
+    - ID: "16b5ca41-afcd-4a61-9d17-dfccc24a335e"
+      Hint: Primary Image
+      Value: |
+        <image mediaid="{7F3F3508-09E0-4D08-A73F-CD5D0289ABC4}" ></image>
+    - ID: "1a75aedd-241d-41aa-a8ee-46b362449be5"
+      Hint: Page Title
+      Value: How to Shop Your Own Wardrobe
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200415T212230Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5f54387d-0781-4ba5-8e8d-e42c33860069"
+      Hint: Date Time
+      Value: 20210706T202100Z
+    - ID: "aae16c06-b25f-4fc9-96b4-e859261c4efb"
+      Hint: Author
+      Value: "{77D3015B-6CE6-45C4-8CF5-B495B196C136}"
+    - ID: "ef80a450-a360-4779-9331-ddd856afa6ea"
+      Hint: Banner Image
+      Value: |
+        <image mediaid="{5EA851E4-8ACF-493E-B2FC-651E450BC7FA}" ></image>

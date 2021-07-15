@@ -1,0 +1,32 @@
+﻿@using Sitecore.Mvc
+@model ClothingCompany.Feature.Navigation.Models.NavGroup
+@{
+    var homeItem = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.StartPath);
+}
+
+<footer>
+    <div style="background-color:cadetblue">
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <figure class="image is-128x128">
+                            @Html.Sitecore().Field("Logo", homeItem, new { DisableWebEdit = true })
+                        </figure>
+                    </div>
+                    @foreach (var navItem in Model.NavItems)
+                    {
+                        <div class="column">
+                            <a href="@navItem.Url">@Html.Sitecore().Field("Page Title", navItem.Item, new { DisableWebEdit = true })</a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+        <div class="footer footer-extended">
+            <div class="content container">
+                <p> &copy; @DateTime.Now.Year Sitecore Corporation A/S. All rights reserved. Sitecore® and Own the Experience® are registered trademarks of Sitecore Corporation A/S in the U.S. and other countries. </p>
+            </div>
+        </div>
+    </div>
+</footer>

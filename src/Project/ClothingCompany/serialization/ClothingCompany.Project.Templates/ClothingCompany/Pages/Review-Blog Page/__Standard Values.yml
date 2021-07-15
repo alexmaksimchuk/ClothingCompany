@@ -1,0 +1,47 @@
+﻿---
+ID: "959c5ea9-6955-4155-a10c-1e4f6e83b594"
+Parent: "e0aeaa7b-5539-4726-aa96-66cd8c1a87c9"
+Template: "e0aeaa7b-5539-4726-aa96-66cd8c1a87c9"
+Path: "/sitecore/templates/Project/ClothingCompany/Pages/Review-Blog Page/__Standard Values"
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{1FE4AA46-481F-4BA0-BC58-E705B4E12629}">
+        <p
+          uid="{39B89E7D-D92E-46D7-8A50-65553167A82B}"
+          key="main"
+          md="{34CA132A-2A07-4B59-880A-E1F9150372A8}" />
+        <r
+          id="{72030422-49FE-4AE7-BB77-A2482FFCF36E}"
+          ph="main"
+          uid="{3A423352-87A8-4FCE-B106-1F982CF954DC}" />
+        <r
+          id="{5311DF9C-6BE6-4026-8B7C-9C187E50EC5A}"
+          ph="main"
+          uid="{D6435091-27E5-4CF1-893B-237CE76316B2}" />
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200304T140947Z
+    - ID: "56d0aef3-6fb8-4dac-bb45-0902b158e344"
+      Hint: Primary Content Text
+      Value: |
+        <p style="color: #000000; background-color: #ffffff; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nunc ac metus interdum vestibulum non non magna. Morbi mattis volutpat metus non mollis. Integer id mattis mi. In quis arcu lacinia, ullamcorper elit id, tincidunt nisl. Praesent ac molestie metus. Ut vitae placerat eros. Mauris porttitor feugiat magna sit amet fermentum. Suspendisse pharetra congue purus, quis fringilla metus posuere sed. Cras eros urna, ullamcorper et dapibus eu, cursus egestas sem. Fusce molestie urna id elit dictum dapibus. Cras dapibus elit neque, a commodo nulla hendrerit vel. Phasellus elementum dapibus finibus. Etiam ac lectus tortor. Etiam tincidunt ligula eros, non facilisis lectus tempor venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vehicula elit non leo commodo lacinia.</p>
+        <p style="color: #000000; background-color: #ffffff; margin: 0px 0px 15px; padding: 0px; text-align: justify;">Nullam efficitur mi vel viverra fermentum. Vivamus consequat dolor non pulvinar tincidunt. Vestibulum vitae justo id nisl congue mollis. Phasellus consectetur sapien nisl, vitae dapibus metus finibus in. Ut convallis faucibus bibendum. Donec eget tellus pretium, dictum orci vel, bibendum mauris. Aliquam at lacinia mi. Donec magna turpis, luctus eget ullamcorper ac, aliquet vel lectus. Praesent a tellus eu felis aliquet suscipit. Integer venenatis porta est a posuere.</p>
+        <p style="color: #000000; background-color: #ffffff; margin: 0px 0px 15px; padding: 0px; text-align: justify;">Proin elit metus, molestie eget nunc et, vestibulum vulputate tortor. Ut tempus eu mi id malesuada. Sed tristique lectus sit amet lacus sagittis, ut sodales diam scelerisque. Pellentesque auctor leo sit amet urna mattis, pulvinar venenatis lectus pharetra. Donec eu velit eu odio vulputate blandit ut at felis. Phasellus eleifend odio id pretium dictum. Morbi lorem lorem, vestibulum ac pretium a, sagittis a augue. Aliquam odio sapien, volutpat at iaculis ut, placerat ac magna. In volutpat urna a nisl dapibus, vel hendrerit ante feugiat. Quisque sit amet imperdiet odio, et sollicitudin lectus.</p>
