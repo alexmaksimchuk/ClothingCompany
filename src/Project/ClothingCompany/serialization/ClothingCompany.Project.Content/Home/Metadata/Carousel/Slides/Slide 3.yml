@@ -1,0 +1,18 @@
+﻿---
+ID: "a5a6a69d-8e1e-4879-882b-5c8725a8ba65"
+Parent: "c1d63b04-b7d9-4d62-9a65-fd80060fc94c"
+Template: "0e00829d-7f26-412e-8e7d-629761a71191"
+Path: /sitecore/content/Home/Metadata/Carousel/Slides/Slide 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19cd3985-20e0-472a-9492-917b9f42fb56"
+      Hint: Image
+      Value: |
+        <image mediaid="{7333A7F3-30AD-468D-ABEC-A743AD99AC7D}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210719T175137Z

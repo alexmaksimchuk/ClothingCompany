@@ -1,0 +1,24 @@
+﻿---
+ID: "c2ad78de-4bd5-4dfa-a98b-9bce0df015d6"
+Parent: "ad65c033-68b0-40cb-afc2-359aed9cb63d"
+Template: "ad65c033-68b0-40cb-afc2-359aed9cb63d"
+Path: /sitecore/templates/Feature/Carousel/_Slide/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210719T175037Z
+    - ID: "4c236d37-5ce2-4762-9898-ee815ad854fb"
+      Hint: Subtitle
+      Value: "Subtitle :)"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ef0b4f47-c0d3-4982-b57b-2208d23f39b5"
+      Hint: Title
+      Value: Clothing Company

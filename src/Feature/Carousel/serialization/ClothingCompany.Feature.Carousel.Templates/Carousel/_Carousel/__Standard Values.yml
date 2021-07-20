@@ -1,0 +1,21 @@
+﻿---
+ID: "5e17a181-c270-4d84-aeb6-c1539df2cd23"
+Parent: "15aca0f4-b288-4f31-ae95-ab1625c3c833"
+Template: "15aca0f4-b288-4f31-ae95-ab1625c3c833"
+Path: /sitecore/templates/Feature/Carousel/_Carousel/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210719T174720Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

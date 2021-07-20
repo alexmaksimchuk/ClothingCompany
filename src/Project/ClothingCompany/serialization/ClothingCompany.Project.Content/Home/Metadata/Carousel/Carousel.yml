@@ -1,0 +1,25 @@
+﻿---
+ID: "4e528db7-7da8-4fb0-b8e0-eb97dc18140c"
+Parent: "a67543d4-1582-49a5-a41c-c3a449d3d1a9"
+Template: "480fa08c-eca3-4e0c-9902-56102fd379f1"
+Path: /sitecore/content/Home/Metadata/Carousel/Carousel
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210719T174607Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ee89a4a6-77e0-444b-b300-44702944815b"
+      Hint: Slides
+      Type: Treelist
+      Value: |
+        {13348E14-FB59-4D7A-84C9-4C1F4A78378C}
+        {56040643-CC4F-461B-A1FF-1E037DEB6CE1}
+        {A5A6A69D-8E1E-4879-882B-5C8725A8BA65}
