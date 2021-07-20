@@ -1,0 +1,22 @@
+﻿---
+ID: "0e00829d-7f26-412e-8e7d-629761a71191"
+Parent: "91a800a3-1263-43d7-928b-6067ddd1afda"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/ClothingCompany/Content Items/Carousel/Slide
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Multimedia/32x32/image.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{AD65C033-68B0-40CB-AFC2-359AED9CB63D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210719T163924Z

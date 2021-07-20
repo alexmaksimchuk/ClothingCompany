@@ -1,0 +1,47 @@
+﻿@using Sitecore.Mvc.Extensions
+@model ClothingCompany.Feature.Carousel.Models.CarouselDataViewModel
+
+<script>
+    $(document).ready(function () {
+        //make first slide and indicator appear/active
+        $('#TGBasicCarousel').find('.carousel-item').first().addClass('active');
+        $('#TGBasicCarousel .carousel-indicators').find('li').first().addClass('active');
+    });
+</script>
+
+<div class="CarouselWrapper">
+    <div id="TGBasicCarousel" class="carousel slide" data-ride="carousel" >
+        <ol class="carousel-indicators">
+            @for (int i = 0; i < Model.SlideItems.Count; i++)
+            {
+                <li data-target="#TGBasicCarousel" data-slide-to="@i"></li>
+            }
+        </ol>
+        <div class="carousel-inner">
+            @for (int i = 0; i < Model.SlideItems.Count; i++)
+            {
+                using (Html.EditFrame(Model.SlideItems[i].Paths.FullPath, "{FF3A53EE-195C-40B5-A3E4-AE0D2B8DE203}", "Slide Item", "Edit Slide Item", null, null))
+                {
+                    <div class="carousel-item @if (Sitecore.Context.PageMode.IsExperienceEditor){const string active = "active";@active;}" >
+                        @if (Model.SlideItems[i] != null)
+                        {
+                            @Html.Sitecore().Field("Image", Model.SlideItems[i], new { @style = "opacity: 0.5" })
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="title">@Html.Sitecore().Field("Title", Model.SlideItems[i])</h3>
+                                <p class="subtitle">@Html.Sitecore().Field("Subtitle", Model.SlideItems[i])</p>
+                            </div>
+                        }
+                    </div>
+                }
+            }
+        </div>
+        <a class="carousel-control-prev" href="#TGBasicCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#TGBasicCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>

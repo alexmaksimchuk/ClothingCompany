@@ -1,0 +1,22 @@
+﻿---
+ID: "480fa08c-eca3-4e0c-9902-56102fd379f1"
+Parent: "91a800a3-1263-43d7-928b-6067ddd1afda"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/ClothingCompany/Content Items/Carousel/Carousel
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Multimedia/32x32/fadein_video.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{15ACA0F4-B288-4F31-AE95-AB1625C3C833}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210719T163836Z

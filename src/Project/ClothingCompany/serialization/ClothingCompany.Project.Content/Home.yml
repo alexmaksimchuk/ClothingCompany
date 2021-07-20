@@ -150,8 +150,23 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{AA0E260F-F23C-489C-8820-6BE31DA6C491}"
+              uid="{8FC26489-7AFA-4D31-A3E1-7CE39E4F32DB}"
               p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:id="{C83E1685-F045-4C80-81C2-862BC15A4A40}"
+              s:ph="/main/col-center-{37B04484-D873-4E1F-8EBB-A4A8ED08239B}-0" />
+            <r
+              uid="{54D6C939-1FEE-4072-AB8A-E87EEDF05099}"
+              p:after="r[@uid='{8FC26489-7AFA-4D31-A3E1-7CE39E4F32DB}']"
+              s:id="{7B46C9B7-2420-42A2-B7AD-66BCBEF34CC3}"
+              s:ph="/main/col-right-{3527C00A-CFC3-41B9-82EC-CB75FF7FFBBF}-0" />
+            <r
+              uid="{44EE15FC-3D1C-4DF0-951A-C22C888CD8CE}"
+              p:after="r[@uid='{54D6C939-1FEE-4072-AB8A-E87EEDF05099}']"
+              s:id="{F288C1D3-C640-4B6B-8A91-1AC001BF789A}"
+              s:ph="/main/col-left-{3527C00A-CFC3-41B9-82EC-CB75FF7FFBBF}-0" />
+            <r
+              uid="{AA0E260F-F23C-489C-8820-6BE31DA6C491}"
+              p:after="r[@uid='{44EE15FC-3D1C-4DF0-951A-C22C888CD8CE}']"
               s:id="{7B46C9B7-2420-42A2-B7AD-66BCBEF34CC3}"
               s:ph="/main/col-right-{AA4E040D-DD33-484C-AC2C-24AD08EDCF03}-0" />
             <r
@@ -160,16 +175,20 @@ Languages:
               s:id="{F288C1D3-C640-4B6B-8A91-1AC001BF789A}"
               s:ph="/main/col-left-{AA4E040D-DD33-484C-AC2C-24AD08EDCF03}-0" />
             <r
-              uid="{ACE76ABB-D761-4D9A-94C4-BA2FDE22A803}"
-              p:after="r[@uid='{644FA5CF-C44C-469B-B94A-1511A16FC1F7}']"
-              s:id="{B5828582-CCAC-45FE-B84D-6C1DAC281E55}"
-              s:ph="/main/col-center-{37B04484-D873-4E1F-8EBB-A4A8ED08239B}-0" />
+              uid="{AA4E040D-DD33-484C-AC2C-24AD08EDCF03}">
+              <p:d />
+            </r>
+            <r
+              uid="{3527C00A-CFC3-41B9-82EC-CB75FF7FFBBF}"
+              p:after="*[1=2]"
+              s:id="{5311DF9C-6BE6-4026-8B7C-9C187E50EC5A}"
+              s:ph="main" />
           </d>
         </r>
     - ID: "16b5ca41-afcd-4a61-9d17-dfccc24a335e"
       Hint: Primary Image
       Value: |
-        <image mediaid="{8AABE58D-1D4B-4C15-9CE4-666D21EC0FFE}" />
+        <image mediaid="{8AABE58D-1D4B-4C15-9CE4-666D21EC0FFE}" ></image>
     - ID: "1a75aedd-241d-41aa-a8ee-46b362449be5"
       Hint: Page Title
       Value: Clothing Company

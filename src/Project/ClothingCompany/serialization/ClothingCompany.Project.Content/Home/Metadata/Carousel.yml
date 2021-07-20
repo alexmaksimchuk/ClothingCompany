@@ -1,0 +1,21 @@
+﻿---
+ID: "a67543d4-1582-49a5-a41c-c3a449d3d1a9"
+Parent: "f4620e18-a2ab-4026-8b4e-fd55cab99bcc"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Home/Metadata/Carousel
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {480FA08C-ECA3-4E0C-9902-56102FD379F1}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210719T174536Z
