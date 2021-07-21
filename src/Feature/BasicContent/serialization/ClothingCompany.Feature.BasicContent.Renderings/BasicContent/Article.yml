@@ -19,7 +19,7 @@ SharedFields:
 - ID: "f3e7e552-d7c8-469b-a150-69e4e14ab35c"
   Hint: ClearOnIndexUpdate
   Type: Checkbox
-  Value: 1
+  Value: 0
 Languages:
 - Language: en
   Versions:
