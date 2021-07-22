@@ -1,0 +1,33 @@
+﻿---
+ID: "3b81d3a4-5893-408f-95dc-e5ab8e46c82a"
+Parent: "b2d1b548-f3a8-423c-93d4-c99acecb16c9"
+Template: "b2d1b548-f3a8-423c-93d4-c99acecb16c9"
+Path: /sitecore/templates/Feature/Carousel/Rendering Parameters Templates/ParametersTemplate_Carousel/__Standard Values
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210722T185048Z
+    - ID: "8abdeb61-86f9-4b38-89d6-04145f9f9745"
+      Hint: Interval
+      Value: 5000
+    - ID: "a3f752a9-ae53-46c4-9758-ff72100a382b"
+      Hint: Keyboard
+      Value: true
+    - ID: "cf2ae5d8-4281-4b8b-9f15-b129a848cd47"
+      Hint: Wrap
+      Value: true
+    - ID: "dd5ee49e-8863-495f-b64c-abb386886b1f"
+      Hint: Pause
+      Value: hover
+    - ID: "f729cf06-8e63-41de-85ed-8cd205857e1c"
+      Hint: Ride
+      Value: false

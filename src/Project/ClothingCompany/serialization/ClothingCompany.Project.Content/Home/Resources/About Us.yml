@@ -57,6 +57,23 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A5FB3850-3F44-4D56-8322-66B0F3F12C6B}"
+              p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:ds=""
+              s:id="{C83E1685-F045-4C80-81C2-862BC15A4A40}"
+              s:par="Interval=1000&amp;Keyboard=false&amp;Pause=hover&amp;Ride=false&amp;Wrap=true"
+              s:ph="/main/col-center-{37B04484-D873-4E1F-8EBB-A4A8ED08239B}-0" />
+          </d>
+        </r>
     - ID: "1a75aedd-241d-41aa-a8ee-46b362449be5"
       Hint: Page Title
       Value: About Us

@@ -1,0 +1,24 @@
+﻿---
+ID: "cf2ae5d8-4281-4b8b-9f15-b129a848cd47"
+Parent: "d9a76506-e7eb-4311-9681-8caf66e0c0d7"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Carousel/Rendering Parameters Templates/ParametersTemplate_Carousel/Styles/Wrap
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: /sitecore/content/Home/Metadata/BasicContent/Rendering Parameters/Wrap
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Droplist
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210722T183135Z
