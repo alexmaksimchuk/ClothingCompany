@@ -1,4 +1,5 @@
 ﻿@using Sitecore.Mvc.Extensions
+@using Sitecore.Mvc.Presentation
 @model ClothingCompany.Feature.Carousel.Models.CarouselDataViewModel
 
 <script>
@@ -10,7 +11,13 @@
 </script>
 
 <div class="CarouselWrapper">
-    <div id="TGBasicCarousel" class="carousel slide" data-ride="carousel" >
+    <div id="TGBasicCarousel" 
+         class="carousel slide" 
+         data-ride="@RenderingContext.Current.Rendering.Parameters["Ride"]" 
+         data-keyboard="@RenderingContext.Current.Rendering.Parameters["Keyboard"]" 
+         data-interval="@RenderingContext.Current.Rendering.Parameters["Interval"]"
+         data-pause="@RenderingContext.Current.Rendering.Parameters["Pause"]" 
+         data-wrap="@RenderingContext.Current.Rendering.Parameters["Wrap"]">
         <ol class="carousel-indicators">
             @for (int i = 0; i < Model.SlideItems.Count; i++)
             {

@@ -152,7 +152,9 @@ Languages:
             <r
               uid="{8FC26489-7AFA-4D31-A3E1-7CE39E4F32DB}"
               p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:ds=""
               s:id="{C83E1685-F045-4C80-81C2-862BC15A4A40}"
+              s:par="Interval=5000&amp;Keyboard=true&amp;Pause=hover&amp;Ride=carousel&amp;Wrap=true"
               s:ph="/main/col-center-{37B04484-D873-4E1F-8EBB-A4A8ED08239B}-0" />
             <r
               uid="{54D6C939-1FEE-4072-AB8A-E87EEDF05099}"

@@ -1,0 +1,18 @@
+﻿---
+ID: "1ebf9e9b-cd1f-42e3-b0f3-df9dcb54a861"
+Parent: "b049165e-1491-4ae3-ba5f-29832e19da92"
+Template: "b174990b-37b1-4a60-9c7d-891b521e1b76"
+Path: /sitecore/content/Home/Metadata/BasicContent/Rendering Parameters/Wrap/true
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210722T192512Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

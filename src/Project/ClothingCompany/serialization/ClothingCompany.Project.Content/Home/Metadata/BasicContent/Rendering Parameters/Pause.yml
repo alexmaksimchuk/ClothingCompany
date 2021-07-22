@@ -1,0 +1,14 @@
+﻿---
+ID: "4f06d4ed-a0ec-4e4f-ae02-2bedaae49d26"
+Parent: "85c272ed-1749-4f8a-9be8-444128df278e"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Home/Metadata/BasicContent/Rendering Parameters/Pause
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210722T183333Z
