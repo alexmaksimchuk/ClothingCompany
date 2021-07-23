@@ -76,8 +76,13 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{BAD52554-4C34-46A2-9963-4FB4F3BDA4E5}"
+              uid="{8441CF80-10C0-4F8C-8252-35DE8EF5F204}"
               p:after="p[@uid='{39B89E7D-D92E-46D7-8A50-65553167A82B}']"
+              s:id="{7064F107-1CA3-4C20-BC96-2B5A20FF4346}"
+              s:ph="/main/col-center-{37B04484-D873-4E1F-8EBB-A4A8ED08239B}-0" />
+            <r
+              uid="{BAD52554-4C34-46A2-9963-4FB4F3BDA4E5}"
+              p:after="r[@uid='{8441CF80-10C0-4F8C-8252-35DE8EF5F204}']"
               s:id="{7B46C9B7-2420-42A2-B7AD-66BCBEF34CC3}"
               s:ph="/main/col-left-{A989AE23-BD05-43AC-8F2D-8D96249A819F}-0" />
             <r

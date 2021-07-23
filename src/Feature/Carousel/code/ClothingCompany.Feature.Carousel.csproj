@@ -303,6 +303,7 @@
   <ItemGroup>
     <Content Include="Views\Carousel\Index.cshtml" />
     <Content Include="App_Config\Include\Feature\Feature.Carousel.Serialization.config" />
+    <Content Include="Views\Carousel\CompatibleRendering.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
